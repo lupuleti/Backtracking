@@ -27,7 +27,6 @@ void permutation (char *string, int start, int end)
 	  } // for
 	} // else
 } // permutation
-
 int main() {
 	char array[] = "ABC";
 	permutation(array, 0, strlen(array)-1);
